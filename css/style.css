@@ -31,21 +31,23 @@ p {
 a {
 	text-decoration: none;
 	outline: none;
-	color: #0475e7;
 	font-family: "PT Sans";
-	font-weight: 700;
-	font-size: 12px;
+	font-size: 20px;
+	color: #000000;
 }
 
 a:hover {
 	text-decoration: underline;
 	outline: none;
-	color: #0475e7;
 	font-family: "PT Sans";
-	font-weight: 700;
-	font-size: 12px;
+	font-size: 20px;
+	color: #000000;
 }
 
+li {
+
+	list-style-type: none;
+}
 #wrap {
 	background: #eff1f1;
 	margin: 0 auto;
@@ -58,34 +60,6 @@ a:hover {
 	color: black;
 	margin: 60px 0px 0 20px;
 }
-/*
-#article {
-	padding-top: 100px;
-}
-
-#date {
-	float: left;
-	font-family: "PT Sans";
-	font-size: 12px;
-	color: #8b8b8b;
-}
-
- .column {
- 	height: 200px;
- 	float: left;
- 	padding-left: 20px;
-	padding-top: 20px;
-    -webkit-column-width: 200px;
-    -moz-column-width: 200px;
-    column-width: 200px;
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-    -webkit-column-gap: 40px;
-    -moz-column-gap: 40px;
-    column-gap: 80px;
-   }
-*/
 
 .column {
 	padding-top: 135px;

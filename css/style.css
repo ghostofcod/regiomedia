@@ -1,0 +1,121 @@
+@import url("reset_style.css");
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PTSans Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('../fonts/intro.otf');
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #eff1f1;
+	font-size: 14px;
+	color: #929393;
+	min-height: 100%;
+}
+
+/*Параграфы*/
+p {
+	font-size: 14px;
+	color: #929393;
+}
+
+/*Ссылки*/
+a {
+	text-decoration: none;
+	outline: none;
+	color: #0475e7;
+	font-family: "PT Sans";
+	font-weight: 700;
+	font-size: 12px;
+}
+
+a:hover {
+	text-decoration: underline;
+	outline: none;
+	color: #0475e7;
+	font-family: "PT Sans";
+	font-weight: 700;
+	font-size: 12px;
+}
+
+#wrap {
+	background: #eff1f1;
+	margin: 0 auto;
+}
+
+#main {
+	float: left;
+	font-family: "Intro";
+	font-size: 24px;
+	color: black;
+	margin: 60px 0px 0 20px;
+}
+/*
+#article {
+	padding-top: 100px;
+}
+
+#date {
+	float: left;
+	font-family: "PT Sans";
+	font-size: 12px;
+	color: #8b8b8b;
+}
+
+ .column {
+ 	height: 200px;
+ 	float: left;
+ 	padding-left: 20px;
+	padding-top: 20px;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 80px;
+   }
+*/
+
+.column {
+	padding-top: 135px;
+	max-width: 1000px;
+	min-width: 400px;
+}
+
+.block {
+	padding: 20px;
+}
+
+.wrapper_block {
+	float: left;
+	width: 25%;
+}
+
+.date {
+	font-family: "PT Sans";
+	font-size: 12px;
+	color: #8b8b8b;
+}
+
+.main_text {
+	font-family: "PT Sans";
+	font-size: 20px;
+	color: #000000;
+}
+
+.more_text {
+	font-family: "PT Sans";
+	font-size: 14px;
+	color: #a1a1a1;
+}

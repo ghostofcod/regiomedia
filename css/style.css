@@ -93,3 +93,17 @@ li {
 	font-size: 14px;
 	color: #a1a1a1;
 }
+
+/*Высплывающие окна*/
+
+.hidden {
+	display: none;
+}
+
+.podr {
+	padding: 30px 20px;
+	background-color: #fff;
+	max-width: 700px;
+	margin: auto;
+	position: relative;
+}
